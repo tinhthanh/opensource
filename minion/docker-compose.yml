@@ -12,6 +12,6 @@ services:
     environment:
       MINIO_ROOT_USER: admin
       MINIO_ROOT_PASSWORD: ngocbao123
-      MINIO_SERVER_URL: https://minion.phanmemvet.vn
-      MINIO_BROWSER_REDIRECT_URL: https://minion.phanmemvet.vn/minio/ui
+      MINIO_SERVER_URL: https://minio.phanmemvet.vn
+      MINIO_BROWSER_REDIRECT_URL: https://consoleminio.phanmemvet.vn
     command: server --console-address ":9001" /data
