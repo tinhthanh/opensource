@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.keycloak.backend.BackendApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-20T09:02:43" hostname="BAONN2-VNG" time="1.103">
+  <properties/>
+  <testcase name="contextLoads()" classname="de.keycloak.backend.BackendApplicationTests" time="1.103"/>
+  <system-out><![CDATA[16:02:41.603 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [de.keycloak.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:02:41.730 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration de.keycloak.backend.BackendApplication for test class de.keycloak.backend.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-08-20T16:02:42.194+07:00  INFO 4156 --- [    Test worker] d.k.backend.BackendApplicationTests      : Starting BackendApplicationTests using Java 17.0.8 with PID 4156 (started by MININT-CHMQ6V4-local in D:\personal\repos\keycloak-authentication\backend)
+2023-08-20T16:02:42.195+07:00  INFO 4156 --- [    Test worker] d.k.backend.BackendApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-08-20T16:02:43.377+07:00  INFO 4156 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10850d17, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51e754e1, org.springframework.security.web.context.SecurityContextHolderFilter@7a3269f5, org.springframework.security.web.header.HeaderWriterFilter@47c7a9e5, org.springframework.web.filter.CorsFilter@26865482, org.springframework.security.web.authentication.logout.LogoutFilter@399ca607, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@773014d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55fdf7f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c689973, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34451ed8, org.springframework.security.web.session.SessionManagementFilter@580fd26b, org.springframework.security.web.access.ExceptionTranslationFilter@3cd26422, org.springframework.security.web.access.intercept.AuthorizationFilter@e29f4f6]
+2023-08-20T16:02:43.747+07:00  INFO 4156 --- [    Test worker] d.k.backend.BackendApplicationTests      : Started BackendApplicationTests in 1.843 seconds (process running for 3.141)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
